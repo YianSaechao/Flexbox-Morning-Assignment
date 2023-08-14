@@ -1,0 +1,51 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    height: 10vh;
+    
+}
+nav div {
+    padding: 10px 100px;
+    margin: 0;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: left;
+    height: 30vh;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}
+.sidebar div {
+    padding-left: 50px;
+    margin-top: 10px;
+}
+.btn {
+    display: flex;
+    justify-content: flex-start;
+    background-color: cornflowerblue;
+    gap: 20px;
+    padding-bottom: 20px;
+ 
+}
+.btn button {
+    border-radius: 40%;
+    padding: 10px 20px;
+}
+footer {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: cornflowerblue;
+    height: 10vh;
+    margin-top: 10px;
+}
+footer div {
+    padding: 10px 20px;
+    margin: 0 5px;
+}
